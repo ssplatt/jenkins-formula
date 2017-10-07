@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+# vim: ft=yaml
+# Defaults for jenkins
+
+jenkins:
+  enabled: False
+  repos_managed: true
+  service:
+    name: jenkins
+    state: dead
+    enable: False
